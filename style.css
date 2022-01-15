@@ -30,6 +30,7 @@ top-part style
     color:white;
     padding: 5px 10px;
     border-radius: 20px;
+    float: left;
 }
 .top-part-img{
    
@@ -88,7 +89,9 @@ main a{
 main{
   padding-bottom: 30px;  
 }
-
+/*-----------
+ footer 
+ -------- */
 footer{
     background-color: #0f0f0f;
    
@@ -106,3 +109,66 @@ span{
     color: white;
     text-align: center;
 }
+/*----------- 
+ mobile device 
+---------- */
+@media only screen and (max-width:688px){
+    header{
+        margin-left: 0;
+    }
+   
+    .top-part{
+        flex-direction: column;
+        row-gap: 200px;
+      
+
+    }
+    .top-part-text{
+   
+        height: 270px;
+    width: 100%
+    }
+
+    .products-part{
+
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 10px;
+    }    
+
+    
+}
+/* ------------
+tab device
+ --------- */
+
+@media only screen and (min-width:689px) and
+(max-width:992px){
+
+    header{
+        
+        margin-left: 0;
+    }
+   
+    .top-part{
+        flex-direction: column;
+        row-gap: 200px;
+      
+
+    }
+    .top-part-text{
+   
+        height: 270px;
+    width: 100%
+    }
+
+    .products-part{
+
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 10px;
+        padding: 10px;
+    }    
+
+    
+} 
