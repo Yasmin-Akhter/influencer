@@ -24,7 +24,7 @@ top-part style
   
 }
 
-a{
+.top-part-text a{
     text-decoration: none;
     background-color: hotpink;
     color:white;
@@ -45,6 +45,48 @@ a{
 
 .products-part{
 
-display: grid;
-grid-template-columns: repeat(3,1fr);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+     
+    justify-content: center;
+    background-color: rgb(252, 249, 249);
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+ h2{
+    text-align: center;
+}
+
+.fa-star.filled{
+    color: orange;
+    height: 16px;
+    width: 16px;
+
+}
+.fa-star.empty{
+    color: gray;
+    height: 16px;
+    width: 16px;
+
+}
+.product-detail p{
+    font-size: 14px;
+  
+    
+
+}
+
+footer{
+    background-color: #0f0f0f;
+    height: 200px;
+}
+footer p{
+    color: white;
+    text-align: center;
+   
+    padding-top:20px;
+    
 }
