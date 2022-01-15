@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display&family=Poppins:wght@500&display=swap');
+
+
+body{
+    
+font-family: 'Poppins', sans-serif;
+}
+header{
+    margin-left: 200px;
+}
+body h1{
+    font-weight: 700px;
+    font-size: 3em;
+    
+}
+/* -----------
+top-part style
+ --------- */
+
+.top-part{
+    
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+
+a{
+    text-decoration: none;
+    background-color: hotpink;
+    color:white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.top-part-img{
+   
+    height: 414px;
+    width: 440px;
+}
+.top-part-text{
+   
+    height: 270px;
+    width: 582px;
+}
+/* products part style  */
+
+.products-part{
+
+display: grid;
+grid-template-columns: repeat(3,1fr);
+}
